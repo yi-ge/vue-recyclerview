@@ -95,12 +95,9 @@
         var item = {
           template: `<li class="mi-item">
               <a class="version-item">
-                  <div class="version-item-img">
-                      <img class="lazy" :src="data.img_url">
-                  </div>
                   <div class="version-item-intro">
                       <div class="version-item-name">
-                          <p>{{data.name}}</p>
+                          <p>{{data.name}}{{data.name}}</p>
                       </div>
                       <div class="version-item-brief">
                           <p>{{ data.product_comment }}</p>
